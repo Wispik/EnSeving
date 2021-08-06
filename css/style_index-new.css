@@ -1,0 +1,469 @@
+.text-gradient.text-gradient-big {
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.calculator__submit > button {
+    background: linear-gradient(96.36deg, #FFDD00 6.26%, #E30613 205.92%);
+    border: none !important;
+}
+
+.calc-arrow {
+    display: none;
+}
+
+.project-inner__descr.index-new > .btn {
+    border: none !important;
+}
+
+.text-gradient.text-gradient-big.light {
+    background-image: linear-gradient(to right, #ffdc01, #f0b40b);
+}
+
+.burger-x {
+    display: none;
+    z-index: 2000;
+    position: fixed;
+    right: 40px;
+}
+
+.our-projects.our-projects-new {
+    padding-top: 135px;
+}
+
+.map-block {
+    position: relative;
+}
+
+.map-bool {
+    display: none;
+    position: absolute;
+    z-index: 150;
+    /* top: 0; */
+    /* left: 300px; */
+    pointer-events: none;
+    width: 280px;
+    height: 140px;
+}
+
+.map-bool > rect {
+    width: 100%;
+    height: 80%;
+}
+
+.mother-russia-svg {
+    margin-bottom: 65px;
+    position: relative;
+}
+
+.our-projects-block-1 {
+    width: 145px;
+}
+
+.our-projects-block-2 {
+    width: 400px;
+}
+
+.our-projects-block-3 {
+    width: 420px;
+}
+
+.icon-number.icon-number-fixed-width {
+    width: 158px;
+}
+
+.fw400 {
+    font-weight: 400;
+}
+
+.index-inner__descr.project-inner__descr.index-new {
+    margin-top: 80px;
+}
+
+.fixed-width-700 {
+    width: 700px;
+    z-index: 2;
+}
+
+.index-inner__descr__text.fixed-width-540 {
+    width: 540px;
+}
+
+.pos-rel {
+    position: relative;
+}
+
+.index_first-screen.new-index {
+    margin-bottom: 0;
+    position: absolute;
+    right: 0;
+}
+
+.logo-new-index-img-mobile {
+    display: none;
+}
+
+.burger-gold {
+    display: none;
+}
+
+.header__center.header-new {
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu.header-new {
+    margin-bottom: 0;
+}
+
+@media (max-width: 991px) {
+    .burger-gold {
+        display: block;
+        margin-top: 8px;
+    }
+
+    .mob-text-calc {
+        font-size: 28px;
+        line-height: 42px;
+        color: #060606;
+    }
+
+    .logo-new-index-img-mobile {
+        display: block;
+    }
+
+    .logo-new-index-img {
+        display: none;
+    }
+
+    .index_first-screen.new-index {
+        position: relative;
+    }
+
+    .pos-rel {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .fixed-width-700 {
+        width: auto;
+    }
+
+    .index-inner__descr__text.fixed-width-540 {
+        width: auto;
+        margin-right: 100px;
+    }
+    .header__left.new-index {
+        margin-right: 0;
+    }
+
+    .container {
+        padding: 0 40px;
+    }
+
+    .project-inner__descr.index-new {
+        margin-bottom: 73px;
+        padding-bottom: 0;
+    }
+
+    .btn.btn-gradient.index-new {
+        width: 100%;
+    }
+
+    .about-new-index {
+        flex-direction: column;
+    }
+
+    .about-new-index > .about_icon {
+        flex-flow: row nowrap;
+    }
+
+    .about_icon {
+        width: 100%;
+    }
+
+    .about_text {
+        width: 100%;
+    }
+
+    .about_text > .flex {
+        flex-direction: column;
+    }
+
+    .about_text > .flex > .column-2 {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 40px;
+    }
+
+    .our-projects.our-projects-new {
+        padding-top: 50px;
+    }
+
+    .our-projects__descr.new-index {
+        flex-direction: column;
+    }
+
+    .our-projects-block-1 {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .our-projects-block-2 {
+        margin-top: 34px;
+        margin-bottom: 25px;
+    }
+
+    .forma-rascheta {
+        margin: 100px 0;
+    }
+
+    .forma-rascheta_title {
+        font-size: 28px;
+    }
+
+    .calculator {
+        margin-bottom: 0 !important;
+    }
+    
+    .news-item {
+        box-shadow: none;
+    }
+
+    .calculator__body {
+        max-width: 400px;
+        margin: 0 auto;
+    }
+
+    .calculator-input.new-index {
+        width: 100% !important;
+        max-width: 100%;
+    }
+
+    .calculator__submit {
+        width: 100%;
+    }
+
+    .header-main.fullscreen-menu {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    .header-main.fullscreen-menu > .header__center {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-left: 44px;
+        width: 100%;
+        margin-top: 44px;
+    }
+
+    .header-main.fullscreen-menu > .header__center > .last-link {
+        margin-left: 0;
+        margin-top: 24px;
+    }
+
+    .header-main.fullscreen-menu > .header__center > .btn {
+        border: none;
+        padding: 0;
+    }
+
+    #map_dot1, #map_dot2, #map_dot3 {
+        cursor: pointer;
+        z-index: 100;
+    }
+
+    #map_dot1, #map_dot2, #map_dot3:focus {
+        outline:none;
+    }
+
+    
+    .map-bool {
+        width: 180px;
+        height: 100px;
+        /* top: 50px; */
+        /* left: 200px; */
+    }
+
+    .mother-russia-svg {
+        height: 400px;
+        left: -50px;
+    }
+}
+
+@media (max-width: 700px) {
+    .header.header-index {
+        padding: 37px 0 0 0;
+    }
+
+    .index-inner__descr__text.fixed-width-540 {
+        font-size: 14px;
+        line-height: 21px;
+        padding-bottom: 50px;
+    }
+
+    .index-inner__descr.project-inner__descr.index-new > .btn.index-new {
+        width: 298px;
+        height: 67px;
+    }
+
+    .index_first-screen.new-index {
+        padding-bottom: 40px;
+    }
+
+    .project-info-title.index-new {
+        font-size: 32px;
+    }
+
+    .about_icon {
+        margin-right: 0;
+    }
+
+    .about_icon + .about_icon {
+        margin-left: 24px;
+    }
+
+    .icon-number-fixed-width > .index_subtext {
+        color:  rgba(118, 118, 118, 1);
+        font-size: 10px;
+        line-height: 15px;
+    }
+
+    .about_text p{
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .about_text > .flex > .column-2 {
+        margin-bottom: 20px;
+    }
+
+    .mother-russia-svg {
+        height: 717px;
+        top: -140px;
+        left: -200px;
+    }
+
+    .map {
+        height: 417px;
+        overflow: hidden;
+        width: 100vw;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        left: -40px;
+    }
+
+    .map-bool {
+        /* left: 100px; */
+    }
+
+    .our-projects__descr.new-index {
+        margin-top: 50px;
+    }
+
+    .our-projects-block-1 > p > span {
+        font-weight: 700;
+    }
+
+    .our-projects-block-2, .our-projects-block-3 {
+        width: 256px;
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .forma-rascheta {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .forma-rascheta_title {
+        font-size: 28px;
+        font-weight: 42px;
+        text-align: left;
+        margin-bottom: 58px;
+    }
+
+    .calculator-input.new-index > input {
+        font-size: 14px;
+        margin-left: 0;
+        padding-left: 12px;
+    }
+    .calculator-input.new-index > input::-webkit-input-placeholder {
+        font-size: 14px;
+    }
+
+    .calculator-input.new-index > .icon {
+        width: 15px;
+        height: 22px;
+        margin-left: 20px;
+    }
+
+    .calculator-input.new-index > .icon > svg {
+        width: 100%;
+        height: 100%;
+    }
+
+    .placeholder {
+        font-size: 14px;
+    }
+
+    .select > ul {
+        font-size: 14px;
+    }
+
+    .calc-arrow {
+        display: block;
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .news-item {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .news-item_text {
+        font-size: 14px;
+    }
+
+    .banner-calculate-2 {
+        margin-top: 100px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        background-image: url(/img/bg/banner-calculate-1-mob.png), url(/img/bg/banner-calculate-2.png), linear-gradient(to right, #ffdc01, #f0670b);
+    }
+
+    .news {
+        margin-left: 35px;
+        margin-right: 35px;
+    }
+
+    .footer {
+        padding-top: 100px;
+    }
+}
+
+.ps__thumb-x {
+    background: linear-gradient(174.55deg, #FFDD00 36.52%, #E30613 200.28%) !important;
+    border-radius: 85px !important;
+}
+
+.ps__rail-x {
+    opacity: 1 !important;
+    background: #FFFFFF;
+}
+
+.ps--active-x > .ps__rail-x, .ps--active-y > .ps__rail-y {
+    background-color: #FFFFFF !important;
+}
+
